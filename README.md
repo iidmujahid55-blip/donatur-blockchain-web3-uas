@@ -259,14 +259,48 @@ Tahap akhir adalah penyusunan dokumentasi dalam bentuk **README.md**, yang beris
 - Tantangan teknis dan non-teknis
 
 ## 📂 Structur Folder 
-├─ src/
-│ ├─ component/
-│ │ ├─ Wallet.js
-│ │ ├─ DonationList.js
-│ │ ├─ SendDonation.js
-│ │ ├─ TransactionNotes.js
-│ ├─ App.js
-│ ├─ App.css
-│ └─ index.js
----
+WEB3-OPEN-DONASI/
+│
+├── backend/
+│   ├── node_modules/
+│   ├── routes/
+│   │   ├── donation.js
+│   │   └── transactions.js
+│   ├── index.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── node_modules/
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   │
+│   ├── src/
+│   │   ├── component/
+│   │   │   ├── Wallet.js
+│   │   │   ├── Wallet.css
+│   │   │   ├── SendDonation.js
+│   │   │   ├── DonationList.js
+│   │   │   └── TransactionNotes.js
+│   │   │
+│   │   ├── services/
+│   │   │   └── blockchain.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   │
+│   ├── .gitignore
+│   ├── package.json
+│   └── package-lock.json
+│
+├── smart-contract/
+│   └── OpenDonation.sol
+│
+├── README.md
 
