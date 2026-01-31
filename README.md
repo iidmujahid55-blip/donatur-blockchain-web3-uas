@@ -63,7 +63,7 @@ WEB3-OPEN-DONASI/
 ├── backend/
 │   ├── node_modules/
 │   ├── routes/
-        └── donation.js
+│   │   ├── donation.js
 │   │   └── transactions.js
 │   ├── index.js
 │   ├── package.json
@@ -72,16 +72,17 @@ WEB3-OPEN-DONASI/
 ├── frontend/
 │   ├── node_modules/
 │   ├── public/
-        └── favicon.ico
-        └── index.html
-        └── logo192.png
-│   │   └── logo512.png
-        └── manifest.json
-        └── robots.tsx
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   │
 │   ├── src/
 │   │   ├── component/
 │   │   │   ├── Wallet.js
-            ├── Wallet.css
+│   │   │   ├── Wallet.css
 │   │   │   ├── SendDonation.js
 │   │   │   ├── DonationList.js
 │   │   │   └── TransactionNotes.js
@@ -98,9 +99,7 @@ WEB3-OPEN-DONASI/
 │   └── package-lock.json
 │
 ├── smart-contract/
-│   ├── OpenDonation.sol
-│   
-│   
+│   └── OpenDonation.sol
 │
 ├── README.md
 
