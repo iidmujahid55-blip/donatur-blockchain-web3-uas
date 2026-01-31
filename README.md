@@ -119,7 +119,7 @@ Menentukan prioritas fitur agar project tetap terarah dan selesai tepat waktu.
 - Penggunaan `useEffect` dengan dependency yang tidak lengkap
 
 ### 4. UI/UX
-- Mendesain tampilan tanpa framework CSS
+- Mendesain tampilan pakai framework CSS
 - Menjaga UI tetap bersih dan mudah dipahami
 - Menyusun komponen agar scalable
 
